@@ -3,7 +3,6 @@ bash "Install Meteor" do
 
   code <<-EOH
   curl https://install.meteor.com | /bin/sh
-  npm install -g meteorite
   EOH
 
   Chef::Log.debug("Finished Meteor install script.")
